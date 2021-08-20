@@ -1,0 +1,63 @@
+/* HEADER */
+.header-container img{
+    width: 60px;
+}
+.nav-item {
+    color: rgb(255, 255, 31) !important;
+    font-weight:800 !important;
+    text-shadow:0 0 10px rgb(255, 255, 17) !important;
+}
+/* ----MAIN----- */
+#main .carousel-item img{
+    max-height:70vh ;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+#carousel h5 {
+    position: relative;
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+}
+.prueba{
+    height: 100% !important;
+}
+
+/* #carousel .overlay .overlay-container,
+#carousel .overlay .row {
+    height: 100%; 
+} */
+.space{
+    padding: 10px;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.712), white);
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+    background-color:rgba(236, 236, 53, 0.897) ;
+    color: black;
+}
+.text-container {
+    padding: 10px;
+}
+.contenido-text{
+    display: flex;
+    justify-content: center;
+    text-shadow:-3px 0px 5px rgb(167, 161, 161);
+}
+.testimonios{
+    padding: 10px;
+}
+.testimonios-box {
+    padding: 5px;
+    margin: 10px;
+    box-shadow: -3px 0px 5px rgb(167, 161, 161) ;
+}
+.testimonios-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
