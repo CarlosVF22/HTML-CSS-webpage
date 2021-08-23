@@ -1,87 +1,100 @@
-  <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/whatsapp.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Posimas y amarres</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header class="header-container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="/images/logo_esoterismo.png" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/whatsapp.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Posimas y amarres</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header-container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/images/logo_esoterismo.png" alt="logo">
+        </a>
+        <div class="donate-button-container">
+          <button type="button" class="contenido-button">
+            <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WMZ683CZHB5CE">Donar</a>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Servicios
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Amarres</a></li>
-                  <li><a class="dropdown-item" href="#">Rituales prosperidad</a></li>
-                  <li><a class="dropdown-item" href="#">Altares</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contactanos</a>
-              </li>
-            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Amarres</a></li>
+                <li><a class="dropdown-item" href="#">Rituales prosperidad</a></li>
+                <li><a class="dropdown-item" href="#">Altares</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- MAIN -->
+  <main id="main">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/altar.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block prueba">
+            <h5 class="col-6 offset-6 text-end">Amarres de amor</h5>
+            <p class="col-6 offset-6 text-end">Haz que esa persona siempre se quede contigo</p>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- MAIN -->
-    <main id="main">
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="carousel-item">
+          <img src="/images/cartas.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block prueba">
+            <h5 class="col-6 offset-6 text-end">Rituales de prosperidad</h5>
+            <p class="col-6 offset-6 text-end">Vuelvete un iman del dinero</p>
+          </div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/images/altar.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block prueba">
-              <h5 class="col-6 offset-6 text-end">Amarres de amor</h5>
-              <p class="col-6 offset-6 text-end">Haz que esa persona siempre se quede contigo</p>
-            </div>
+        <div class="carousel-item">
+          <img src="/images/esoterism.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block prueba">
+            <h5 class="col-6 offset-6 text-end">Conoce tu futuro</h5>
+            <p class="col-6 offset-6 text-end">Controla tu futuro</p>
           </div>
-          <div class="carousel-item">
-            <img src="/images/cartas.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block prueba">
-              <h5 class="col-6 offset-6 text-end">Rituales de prosperidad</h5>
-              <p class="col-6 offset-6 text-end">Vuelvete un iman del dinero</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/esoterism.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block prueba">
-              <h5 class="col-6 offset-6 text-end">Conoce tu futuro</h5>
-              <p class="col-6 offset-6 text-end">Controla tu futuro</p>
-            </div>
-          </div>
+        </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -91,58 +104,67 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </main>
-    <!-- space -->
-    <section class="space">
-      <div></div>
+  </main>
+  <!-- space -->
+  <section class="space">
+    <div></div>
     <!-- Testimonios -->
-    </section id="testimonios">
-      <div class="testimonios-container">
-        <div class="row">
-          <div class="col text-uppercase text-center mt-3 mb-3 title">
-            <h2>Testimonios</h2>
+  </section id="testimonios">
+    <div class="testimonios-container">
+      <div class="row">
+        <div class="col text-uppercase text-center mt-3 mb-3 title">
+          <h2>Testimonios</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+           <img src="/images/noImage.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Vasquez</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid
+              nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate
+              dolor fugit nam! Id vitae quia qui!</p>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card" >
-              <img src="/images/noImage.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Carlos Vasquez</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
-              </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="/images/noImage.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Vasquez</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid
+              nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate
+              dolor fugit nam! Id vitae quia qui!</p>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card" >
-              <img src="/images/noImage.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Carlos Vasquez</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card" >
-              <img src="/images/noImage.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Carlos Vasquez</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card" >
-              <img src="/images/noImage.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Carlos Vasquez</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
-              </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="/images/noImage.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carlos Vasquez</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid
+              nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate
+              dolor fugit nam! Id vitae quia qui!</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- video section -->
+  <section class="video-section">
+    <div class="row box-video">
+      <div class="col col-md-8">
+        <div class="video-container">
+          <div class="contenido-video">
+            <iframe class="video pb-4" width="100%" height="320" src="https://www.youtube.com/embed/TMGGczIR_Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
     <!-- Formulario de contacto -->
     <section class="formulario-testimonio">
       <div class="container-formulario">
@@ -150,33 +172,35 @@
           <div class="col text-uppercase text-center mt-3 mb-3 title-form">
             <h2>Dejanos tu experiencia</h2>
           </div>
-        <div class="row box-row-formulario">
-          <div class="col col-md-8">
-            <form action="">
-              <div class="form-row">
-                <div class=" form-group mb-3">
-                  <label for="formGroupExampleInput" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu nombre">
+          <div class="row box-row-formulario">
+            <div class="col col-md-8">
+              <form action="">
+                <div class="form-row">
+                  <div class=" form-group mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu nombre">
+                  </div>
+                  <div class=" form group mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                      placeholder="Escribe tu apellido">
+                  </div>
                 </div>
-                <div class=" form group mb-3">
-                  <label for="formGroupExampleInput2" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu apellido">
+                <div class="form-row">
+                  <div class="col form-group">
+                    <textarea name="text-testimonio" class="form-control form-control-lg"
+                      placeholder="Escribe tu testimonio"></textarea>
+                  </div>
                 </div>
-              </div>
-              <div class="form-row">
-                <div class="col form-group">
-                  <textarea name="text-testimonio" class="form-control form-control-lg" placeholder="Escribe tu testimonio"></textarea>
+                <div class="form-row" id="boton-testimonio">
+                  <div class="col d-grid testimonios-boton mt-3">
+                    <button type="button" class="btn">Enviar</button>
+                  </div>
                 </div>
-              </div>
-              <div class="form-row" id="boton-testimonio">
-                <div class="col d-grid testimonios-boton mt-3">
-                  <button type="button" class="btn">Enviar</button>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
     <!-- footer -->
@@ -195,14 +219,16 @@
         </div>
       </div>
     </footer>
-    <a href="https://api.whatsapp.com/send?phone=+57 3146853222&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
+    <a href="https://api.whatsapp.com/send?phone=+57 3146853222&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20sobre%20tus%20ayudas%20."
+      class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
     </a>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js " integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js "
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf "
+      crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js "
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG "
+      crossorigin="anonymous "></script>
   </body>
-</html>
-</body>
-</html>
 
-
+</html>
