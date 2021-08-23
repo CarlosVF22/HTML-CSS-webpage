@@ -1,4 +1,7 @@
 /* HEADER */
+:root{
+    --bs-dark-rgb: 33,37,41;
+}
 .header-container img{
     width: 60px;
 }
@@ -30,34 +33,49 @@
     padding: 10px;
     background: linear-gradient(to bottom, rgba(51, 51, 51, 0.712), white);
 }
-.container-button{
-    display: flex;
-    justify-content: center;
+.row{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+.title h2{
+    text-shadow: -5px 0px 5px rgba(51, 51, 51, 0.712) ;
 }
 
+.testimonios-container {
+    padding: 10px;
+}
+.footer{
+    background-color: rgba(var(--bs-dark-rgb));
+}
+.list-style{
+    text-decoration: none;
+    color: rgba(241, 241, 99, 0.897);
+}
+h6 a:hover{
+    color: rgb(255, 255, 17);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+}
+.formulario-testimonio{
+    background-color: rgba(var(--bs-dark-rgb));
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.title-form h2{
+    color: white;
+}
+.form-label{
+    color: white;
+}
+.box-row-formulario{
+    justify-content: center;
+}
 .btn{
-    margin: 10px;
-    background-color:rgba(236, 236, 53, 0.897) ;
+    background-color:rgba(250, 250, 50, 0.897) ;
+    border: none;
     color: black;
 }
-.text-container {
-    padding: 10px;
-}
-.contenido-text{
-    display: flex;
-    justify-content: center;
-    text-shadow:-3px 0px 5px rgb(167, 161, 161);
-}
-.testimonios{
-    padding: 10px;
-}
-.testimonios-box {
-    padding: 5px;
-    margin: 10px;
-    box-shadow: -3px 0px 5px rgb(167, 161, 161) ;
-}
-.testimonios-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#boton-testimonio:hover{
+    color:rgb(255, 255, 17) ;
+    text-shadow:0 0 10px  rgb(255, 255, 17)
 }

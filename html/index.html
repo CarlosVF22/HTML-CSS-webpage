@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/whatsapp.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Posimas y amarres</title>
   </head>
   <body>
@@ -93,46 +95,109 @@
     <!-- space -->
     <section class="space">
       <div></div>
-    </section>
-    <section class="text-container">
-      <div class="contenido-text">
-        <h1 class="text-resultados">RESULTADOS REALES</h1>
-      </div>
-    </section>
-    <section class="testimonios">
+    <!-- Testimonios -->
+    </section id="testimonios">
       <div class="testimonios-container">
-        <div class="testimonios-box">
-          <div class="card" style="width: 12rem;">
-            <img src="/images/noImage.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+        <div class="row">
+          <div class="col text-uppercase text-center mt-3 mb-3 title">
+            <h2>Testimonios</h2>
           </div>
         </div>
-        <div class="testimonios-box">
-          <div class="card" style="width: 12rem;">
-            <img src="/images/noImage.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="/images/noImage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carlos Vasquez</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="testimonios-box">
-          <div class="card" style="width: 12rem;">
-            <img src="/images/noImage.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="/images/noImage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carlos Vasquez</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="/images/noImage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carlos Vasquez</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="/images/noImage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Carlos Vasquez</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam tenetur aliquid nostrum illum iusto deleniti labore praesentium vel, explicabo molestias laudantium voluptatibus voluptate dolor fugit nam! Id vitae quia qui!</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Formulario de contacto -->
+    <section class="formulario-testimonio">
+      <div class="container-formulario">
+        <div class="row">
+          <div class="col text-uppercase text-center mt-3 mb-3 title-form">
+            <h2>Dejanos tu experiencia</h2>
+          </div>
+        <div class="row box-row-formulario">
+          <div class="col col-md-8">
+            <form action="">
+              <div class="form-row">
+                <div class=" form-group mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tu nombre">
+                </div>
+                <div class=" form group mb-3">
+                  <label for="formGroupExampleInput2" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu apellido">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col form-group">
+                  <textarea name="text-testimonio" class="form-control form-control-lg" placeholder="Escribe tu testimonio"></textarea>
+                </div>
+              </div>
+              <div class="form-row" id="boton-testimonio">
+                <div class="col d-grid testimonios-boton mt-3">
+                  <button type="button" class="btn">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center">
+            <h6><a class="list-style" href="#">Terminos y condiciones</a></h6>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <h6><a class="list-style" href="#">Politica de pago y reembolso</a></h6>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <h6><a class="list-style" href="#">Contactanos</a></h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=+57 3146853222&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js " integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js " integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG " crossorigin="anonymous "></script>
   </body>
