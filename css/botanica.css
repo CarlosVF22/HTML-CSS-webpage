@@ -22,7 +22,7 @@
     box-shadow: -10px 0px 10px rgba(7, 7, 7, 0.712);
 }
 .card img{
-    height: 170px;
+    height: 50%;
 }
 .card-text{
     color: whitesmoke;
@@ -45,5 +45,8 @@
 .button-productos a:hover{
     color:black;
     box-shadow:0 0 10px  rgb(255, 255, 17);
+}
+.row{
+    justify-content: flex-end;
 }
 /* ---------------- */
