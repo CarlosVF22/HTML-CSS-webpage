@@ -1,0 +1,49 @@
+.main-botanica{
+    background-color: rgb(76, 81, 85);
+    padding: 10px;
+}
+#button-botanica{
+    background-color: rgb(76, 81, 85);
+    color: rgba(241, 241, 99, 0.897);
+}
+
+.card-title{
+    padding: 5px;
+    color: rgba(241, 241, 99, 0.897);
+}
+.card-title h5:hover{
+    color: rgb(255, 255, 17);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+}
+.card {
+    background-color: rgb(33,37,41);
+    border: none;
+    margin-bottom: 12px;
+    box-shadow: -10px 0px 10px rgba(7, 7, 7, 0.712);
+}
+.card img{
+    height: 170px;
+}
+.card-text{
+    color: whitesmoke;
+}
+.precio-producto{
+    color: rgba(241, 241, 99, 0.897);
+}
+.precio-producto h6:hover{
+    color: rgb(255, 255, 17);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+}
+.button-productos{
+    display: flex;
+    justify-content: center;
+}
+.button-productos a{
+    font-weight: 800;
+}
+
+.button-productos a:hover{
+    color:black;
+    box-shadow:0 0 10px  rgb(255, 255, 17);
+}
+/* ---------------- */

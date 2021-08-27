@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Tarjetas de servicios */
+.img-contenido-servicios img{
+    width:100%;
+}
+.main-servicios{
+    padding: 30px;
+    background-color: rgb(76, 81, 85);
+}
+.text-servicios-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 2px;
+}
+.box-servicio{
+    box-shadow: -10px 0px 10px rgba(7, 7, 7, 0.712);
+    margin: 20px;
+}
+.box-text-title{
+    display: inherit;
+    padding-top: 8%;
+
+}
+.col-img-servicio{
+    padding: 0;
+}
+.col-text-title-servicios{
+    background-color: rgb(33,37,41);
+}
+
+.title-servicios{
+    color: rgba(241, 241, 99, 0.897);
+    padding: 10px;
+    padding-bottom: 2px;
+}
+.title-servicios h2:hover {
+    color: rgb(255, 255, 17);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+} 
+
+.text-servicios{
+    color: whitesmoke;
+}
+.container-button-servicios{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.container-button-servicios a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.container-button-servicios button{
+    background-color:rgba(250, 250, 50, 0.897);
+    border-radius: 8px;
+}
+.container-button-servicios button:hover{
+    color:rgb(255, 255, 17) ;
+    box-shadow:0 0 10px  rgb(255, 255, 17);
+}

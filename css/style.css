@@ -10,6 +10,14 @@
     font-weight:800 !important;
     text-shadow:0 0 10px rgb(255, 255, 17) !important;
 }
+.cart-item img{
+    max-width: 30px;
+    margin: 10px;
+}
+.cart-item:hover{
+    background: radial-gradient(rgb(247, 247, 59) ,rgb(33,37,41)20px);
+    border-radius: 50%;
+}
 /* ----MAIN----- */
 #main .carousel-item img{
     max-height:70vh ;
@@ -44,6 +52,7 @@
 
 .testimonios-container {
     padding: 10px;
+    
 }
 .footer{
     background-color: rgba(var(--bs-dark-rgb));
@@ -75,6 +84,7 @@ h6 a:hover{
     background-color:rgba(250, 250, 50, 0.897) ;
     border: none;
     color: black;
+    border-radius: 10px;
 }
 #boton-testimonio:hover{
     color:rgb(255, 255, 17) ;
