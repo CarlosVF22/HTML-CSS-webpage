@@ -19,28 +19,65 @@
     border-radius: 50%;
 }
 /* ----MAIN----- */
-#main .carousel-item img{
-    max-height:70vh ;
-    object-fit: cover;
-    filter: grayscale(50%);
+#main{
+    background-color:rgb(76, 81, 85);
 }
-#carousel h5 {
-    position: relative;
+.title-section{
+    display: flex;
+    justify-content: center;
+}
+.title-section a{
+    text-decoration: none;
     color: rgba(236, 236, 53, 0.897);
     text-shadow:0 0 10px  rgb(255, 255, 17);
 }
-.prueba{
-    height: 100% !important;
+.title-section h2{
+    text-decoration: none;
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
 }
-
-/* #carousel .overlay .overlay-container,
-#carousel .overlay .row {
-    height: 100%; 
-} */
-.space{
-    padding: 10px;
-    background: linear-gradient(to bottom, rgba(51, 51, 51, 0.712), white);
+.title-section h2{
+    text-align: center;
+    padding-top: 3%;
 }
+#main .carousel-item img{
+    height:50vh ;
+    object-fit: cover;
+    filter: grayscale(50%);
+}
+.carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.carousel{
+    position: relative;
+    box-shadow: 0px 10px 30px rgba(7, 7, 7, 0.712);
+}
+#carousel h5 {
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+    margin: 0;
+}
+#carousel-chamanes h5{
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+    margin: 0;
+}
+#carousel-botanica h5{
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+    margin: 0;
+}
+.box-carousel-info{
+    height: 100%;
+    padding: 0;
+    padding-top: 10%;
+}
+/* --------------------------------- */
 .row{
     padding: 0;
     width: 100%;
@@ -52,7 +89,17 @@
 
 .testimonios-container {
     padding: 10px;
-    
+}
+.card{
+    background-color: rgb(33,37,41);
+    box-shadow: -10px 0px 10px rgba(7, 7, 7, 0.712);
+}
+.card-title{
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+}
+.card-text{
+    color: whitesmoke;
 }
 .footer{
     background-color: rgba(var(--bs-dark-rgb));
