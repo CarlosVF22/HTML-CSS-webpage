@@ -72,6 +72,9 @@
     text-shadow:0 0 10px  rgb(255, 255, 17);
     margin: 0;
 }
+#carousel-botanica .carousel-inner{
+    background-color: whitesmoke;
+}
 .box-carousel-info{
     height: 100%;
     padding: 0;
