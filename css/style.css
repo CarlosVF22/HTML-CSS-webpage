@@ -111,6 +111,7 @@
 .list-style{
     text-decoration: none;
     color: rgba(241, 241, 99, 0.897);
+    cursor: pointer;
 }
 h6 a:hover{
     color: rgb(255, 255, 17);
