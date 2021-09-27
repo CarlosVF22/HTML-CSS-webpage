@@ -104,6 +104,49 @@
 .card-text{
     color: whitesmoke;
 }
+#card-testimonios img{
+    border-radius: 50%;
+    width: 50%;
+    padding-top: 5%;
+}
+.image-testimonio-container {
+    display: flex;
+    justify-content: center;
+}
+/* -------------Medios de pagos------------- */
+.main-pagos{
+    height: auto;
+    padding-bottom:8% ;
+    padding-top: 5%;
+}
+.image-pagos-container img{
+    width: 100%;
+}
+.image-pagos-container{
+    padding-bottom: 3%;
+}
+.title-pagos{
+    padding-bottom: 3%;
+}
+/* -------------pago Realizado------------------ */
+.main-pagoRealizado{
+    height: auto;
+}
+.imageContainer-pago img{
+    max-width: 100vw;
+    max-height: 50vh;
+}
+.imageContainer-pago{
+    display: flex;
+    justify-content: center;
+}
+.boton-pagoRealizado{
+    padding-bottom: 5%;
+}
+
+
+/* ------------------------------------------- */
+/* ----------------------------------------- */
 .footer{
     background-color: rgba(var(--bs-dark-rgb));
     padding: 20px;
@@ -151,5 +194,18 @@ h6 a:hover{
     font-weight: 800;
 }
 .box-video{
+    justify-content: center;
+}
+.container-title-redes{
+    padding-top: 10px;
+}
+.image-redes img{
+    width: 50px;
+}
+#row-footer{
+    justify-content: center;
+}
+.image-redes{
+    display: flex;
     justify-content: center;
 }

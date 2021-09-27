@@ -17,6 +17,7 @@
 </head>
 
 <body>
+  
   <!-- HEADER -->
   <header class="header-container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -78,47 +79,47 @@
       </div>
     </nav>
   </header>
-  <main class="main-contactenos">
-      <section class="form-container-contactenos">
-            <div class="row">
-                <div class="col text-uppercase text-center mt-3 mb-3 title-form">
-                  <h2>Cuentanos en que te podemos ayudar y te responderemos lo mas pronto posible</h2>
-                </div>
-                <div class="row box-row-formulario">
-                  <div class="col col-md-8">
-                    <form action="">
-                      <div class="form-row">
-                        <div class=" form-group mb-3">
-                          <label for="nombre_contactenos" class="form-label">Nombre</label>
-                          <input type="text" class="form-control" id="nombre_contactenos" placeholder="Escribe tu nombre">
-                        </div>
-                        <div class=" form group mb-3">
-                          <label for="apellido_contactenos" class="form-label">Apellido</label>
-                          <input type="text" class="form-control" id="apellido_contactenos"
-                            placeholder="Escribe tu apellido">
-                        </div>
-                        <div class=" form group mb-3">
-                            <label for="email_contactenos" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email_contactenos"
-                              placeholder="Escribe tu email">
-                          </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="col form-group">
-                          <textarea name="text-testimonio" class="form-control form-control-lg"></textarea>
-                        </div>
-                      </div>
-                      <div class="form-row" id="boton-contactenos">
-                        <div class="col d-grid mt-3">
-                          <button type="button" class="btn boton-contactenos list-style" data-bs-toggle="modal" data-bs-target="#modal-contactenos">Enviar</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
+  <!-- MAIN -->
+    <main id="main" class="main-pagos">
+        <div class="row">
+            <div class="col-12 title-pagos">
+                <div class="title-section">
+                    <h2>Pensando en tu comodidad, tenemos diferentes opciones de pagos, sientete libre de utilizar la de tu preferencia.</h2>
                 </div>
             </div>
-      </section>
-  </main>
+            <div class="col-12 col-md-4">
+                <div class="image-pagos-container">
+                    <img src="./image_pagos/bancolombia.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="image-pagos-container">
+                    <img src="./image_pagos/nequi.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="image-pagos-container">
+                    <img src="./image_pagos/paypal.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="image-pagos-container">
+                    <img src="./image_pagos/daviplata.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="image-pagos-container">
+                    <img src="./image_pagos/westernUnion.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="image-pagos-container">
+                    <img src="./image_pagos/moneyGram.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+  
     <!-- footer -->
     <footer class="footer">
       <div class="footer-container">
@@ -135,7 +136,7 @@
         </div>
       </div>
     </footer>
-    <!-- modal terminos y condiciones -->
+    <!-- modal -->
     <div class="modal fade" id="modal-terminos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -202,7 +203,7 @@
         </div>
       </div>
     </div>
-    <a href="https://api.whatsapp.com/send?phone=+57 3115462615&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n"
+    <a href="https://api.whatsapp.com/send?phone=+57 3115462615&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20ayudas,%20vengo%20desde%20el%20Home%20."
       class="float" target="_blank">
       <i class="fa fa-whatsapp my-float"></i>
     </a>
@@ -212,6 +213,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js "
       integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG "
       crossorigin="anonymous "></script>
-  </body>
-
+  
+</body>
 </html>

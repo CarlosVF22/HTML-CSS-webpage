@@ -20,9 +20,12 @@
 }
 #boton-contactenos button:hover{
     box-shadow:0 0 10px  rgb(255, 255, 17);
-    
 }
 
 #boton-contactenos button{
     font-weight: 800;
+}
+.modal-contactenos-link{
+   text-decoration: none;
+   color: black;
 }
