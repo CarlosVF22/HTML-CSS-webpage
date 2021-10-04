@@ -1,0 +1,15 @@
+.background-image-horoscopo img{
+    max-height: 70vh;
+    object-fit: cover;
+    position: relative;
+    width: 100vw;
+}
+.title-horoscopo{
+    color: rgba(236, 236, 53, 0.897);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+    padding-top: 5%;
+}
+.zodiac-container img{
+    max-height: 120px;
+    max-width: 120px;
+}
