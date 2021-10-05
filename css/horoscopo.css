@@ -10,6 +10,31 @@
     padding-top: 5%;
 }
 .zodiac-container img{
-    max-height: 120px;
-    max-width: 120px;
+    width: 100%;
+    height: auto !important;
+    object-fit: scale-down !important;
+}
+.img-container-horoscopo{
+    display: flex;
+    
+}
+.zodiac-text{
+    color: rgba(236, 236, 53, 0.897);
+    line-height: 0.8;
+    padding-right: 10%;
+}
+@media (min-width:500px){
+    .zodiac-text{
+        padding-top: 10%;
+        padding-left: 0;
+    }
+    .img-container-horoscopo{
+        padding-left:15% ;
+        padding-bottom: 15%;
+        padding-right: 3%;
+        
+    }
+    .zodiac-text p{
+        padding-right: 40%;
+    }
 }
