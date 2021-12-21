@@ -1,0 +1,31 @@
+.main-contactenos{
+    background-color: rgb(76, 81, 85);
+    padding: 10px;
+}
+.form-container-contactenos{ 
+    margin: 10px;
+    background-color:rgb(33,37,41);
+    box-shadow: -10px 0px 10px rgba(7, 7, 7, 0.712);
+}
+.form-container-contactenos h2 {
+    color: rgba(241, 241, 99, 0.897);
+}
+.form-container-contactenos h2:hover{
+    color: rgb(255, 255, 17);
+    text-shadow:0 0 10px  rgb(255, 255, 17);
+}
+#boton-contactenos{
+    padding-bottom: 10px;
+    
+}
+#boton-contactenos button:hover{
+    box-shadow:0 0 10px  rgb(255, 255, 17);
+}
+
+#boton-contactenos button{
+    font-weight: 800;
+}
+.modal-contactenos-link{
+   text-decoration: none;
+   color: black;
+}
